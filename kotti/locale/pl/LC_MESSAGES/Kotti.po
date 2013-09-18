@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Kotti 0.9a3dev\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-05-13 21:41+0200\n"
-"PO-Revision-Date: 2013-09-18 16:17+0400\n"
+"PO-Revision-Date: 2013-09-18 21:08+0400\n"
 "Last-Translator: Damian Dimmich <damian@tauri-tec.com>\n"
 "Language-Team: pl <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
@@ -315,7 +315,7 @@ msgstr "Grupy"
 #: kotti/templates/email-reset-password.pt:4
 #: kotti/templates/email-set-password.pt:4
 msgid "Hello, ${user_title}!"
-msgstr ""
+msgstr "Witaj, ${user_title}!"
 
 #: kotti/views/edit/actions.py:456
 msgid "Hide"
@@ -372,7 +372,7 @@ msgstr "Wyloguj"
 
 #: kotti/templates/workflow-dropdown.pt:11
 msgid "Make ${state}"
-msgstr ""
+msgstr "Zmien na ${state}"
 
 #: kotti/views/form.py:261
 msgid "Maximum file size: ${size}MB"
@@ -381,91 +381,91 @@ msgstr ""
 #: kotti/templates/edit/change-state.pt:24 kotti/templates/edit/contents.pt:44
 #: kotti/templates/edit/delete-nodes.pt:25 kotti/templates/view/folder.pt:23
 msgid "Modification Date"
-msgstr ""
+msgstr "Data modifikacji"
 
 #: kotti/views/edit/actions.py:454
 msgid "Move down"
-msgstr ""
+msgstr "Do gory"
 
 #: kotti/views/edit/actions.py:453
 msgid "Move up"
-msgstr ""
+msgstr "Nadol"
 
 #: kotti/views/users.py:573
 msgid "My preferences - ${title}"
-msgstr ""
+msgstr "Moje preferencjie - ${title}"
 
 #: kotti/templates/edit/share.pt:31 kotti/templates/site-setup/users.pt:32
 #: kotti/views/users.py:209
 msgid "Name"
-msgstr ""
+msgstr "Imie"
 
 #: kotti/views/edit/actions.py:327 kotti/views/edit/actions.py:354
 msgid "Name and title are required."
-msgstr ""
+msgstr "Imie i tytul sa wymagane."
 
 #: kotti/templates/editor-bar.pt:38
 msgid "Navigate"
-msgstr ""
+msgstr "Nawiguj"
 
 #: kotti/templates/edit/nav-tree-view.pt:8
 msgid "Navigate Site"
-msgstr ""
+msgstr "Nawiguj witryne"
 
 #: kotti/templates/edit/rename-nodes.pt:20 kotti/templates/edit/rename.pt:13
 msgid "New name"
-msgstr ""
+msgstr "Nowe imie"
 
 #: kotti/templates/edit/rename-nodes.pt:23 kotti/templates/edit/rename.pt:20
 msgid "New title"
-msgstr ""
+msgstr "Nowy tytul"
 
 #: kotti/templates/edit/change-state.pt:53
 msgid "No change"
-msgstr ""
+msgstr "Bez zmian"
 
 #: kotti/views/users.py:73 kotti/views/users.py:451
 #: kotti/views/edit/actions.py:300 kotti/views/edit/actions.py:366
 #: kotti/views/edit/actions.py:408 kotti/views/edit/actions.py:412
 msgid "No changes were made."
-msgstr ""
+msgstr "Bez zmian"
 
 #: kotti/templates/edit/contents.pt:30
 msgid "No content items are contained here."
-msgstr ""
+msgstr "Nie ma zadnych sztuk tutaj."
 
 #: kotti/views/users.py:544
 msgid "No name was given."
-msgstr ""
+msgstr "Nie ma imienia."
 
 #: kotti/views/users.py:183
 msgid "No such group: ${group}"
-msgstr ""
+msgstr "Nie ma grupy: ${group}"
 
 #: kotti/views/users.py:100
 msgid "No users or groups were found."
-msgstr ""
+msgstr "Nie znaleziono uzytkownikow ani grup."
 
 #: kotti/templates/login.pt:41
 msgid "Not registered yet?"
-msgstr ""
+msgstr "Nie zarejstrownay?"
 
 #: kotti/views/edit/actions.py:291
 msgid "Nothing was deleted."
-msgstr ""
+msgstr "Nic nie zostalo skasowane."
 
 #: kotti/security.py:167
 msgid "Owner"
-msgstr ""
+msgstr "Wlasciciel"
 
 #: kotti/templates/login.pt:22 kotti/views/login.py:213
 #: kotti/views/users.py:214
 msgid "Password"
-msgstr ""
+msgstr "Haslo"
 
 #: kotti/views/edit/actions.py:441 kotti/views/edit/actions.py:592
 msgid "Paste"
-msgstr ""
+msgstr "Wklej"
 
 #: kotti/templates/editor-bar.pt:49
 msgid "Preferences"
@@ -473,41 +473,41 @@ msgstr ""
 
 #: kotti/workflow.zcml:28
 msgid "Private"
-msgstr ""
+msgstr "Prywatne"
 
 #: kotti/workflow.zcml:41
 msgid "Public"
-msgstr ""
+msgstr "Publiczne"
 
 #: kotti/templates/login.pt:42 kotti/views/login.py:84
 msgid "Register"
-msgstr ""
+msgstr "Rejstruj"
 
 #: kotti/views/login.py:125
 msgid "Register - ${title}"
-msgstr ""
+msgstr "Rejstruj - ${title}"
 
 #: kotti/templates/edit/rename-nodes.pt:8
 #: kotti/templates/edit/rename-nodes.pt:29 kotti/templates/edit/rename.pt:27
 #: kotti/views/edit/actions.py:446 kotti/views/edit/actions.py:594
 msgid "Rename"
-msgstr ""
+msgstr "Zmien nazwe"
 
 #: kotti/templates/edit/rename.pt:8
 msgid "Rename ${title}"
-msgstr ""
+msgstr "Zmien nazwe ${title}"
 
 #: kotti/templates/login.pt:56 kotti/templates/login.pt:62
 msgid "Reset password"
-msgstr ""
+msgstr "Zresetuj haslo"
 
 #: kotti/views/login.py:287
 msgid "Reset your password - ${title}."
-msgstr ""
+msgstr "Zresetuj haslo - ${title}"
 
 #: kotti/templates/email-reset-password.pt:2
 msgid "Reset your password for ${site_title}."
-msgstr ""
+msgstr "Zresetuj haslo dla ${site_title}."
 
 #: kotti/views/form.py:73 kotti/views/users.py:433
 msgid "Save"
